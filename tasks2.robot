@@ -22,8 +22,8 @@ Library             RPA.FTP
 
 001 Log to Veno    [Tags]    001    smoke
     RPA.Windows.Control Window    regex:VENO*
-    Send Keys    class:TextBox -> path:3|2    keys=root
-    Send Keys    class:PasswordBox -> path:4|2    keys=pass
+    Send Keys    class:TextBox -> path:3|2    keys=******
+    Send Keys    class:PasswordBox -> path:4|2    keys=******
     RPA.Windows.Click    name:Logowanie
     Wait For Element    veno_POLON-ALFA    timeout=3
 
